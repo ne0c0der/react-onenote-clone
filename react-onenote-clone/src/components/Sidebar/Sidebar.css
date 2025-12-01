@@ -1,0 +1,50 @@
+/* The whole left sidebar */
+.sidebar {
+    width: 220px;     
+    height: 100vh;
+    background: #f3f4f6;
+    border-right: 1px solid #ddd;
+    padding: 20px;
+    box-sizing: border-box; 
+}
+/* Header section (title + add button) */
+.sidebar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+/* Title text */
+.sidebar-header h2 {
+    margin: 0;
+    font-size: 18px;
+}
+
+/* The + add button */
+.sidebar-header button {
+    border: none;
+    background: #0078ff;
+    color: blanchedalmond;
+    padding: 6px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+/* The list that conatains all Totes */
+.tote-list {
+    list-style: none; /* removes bullets */
+    padding: 0;
+    border-radius: 0;
+}
+
+/* Each Tote Item */
+.tote-list li:hover {
+    background: #e5e7eb;
+}
+
+/* Active (selected) Tote style */
+.tote-list li:active {
+    background: #d1eaff;
+    font-weight: bold;
+}
